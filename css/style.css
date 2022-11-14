@@ -21,3 +21,7 @@ main #jumbo {
     min-height: 600px;
     color: #fff;
 }
+
+.my_content img {
+    border-radius: 15px;
+}
