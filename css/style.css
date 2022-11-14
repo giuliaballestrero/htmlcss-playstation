@@ -6,21 +6,29 @@
     color: #7c7c7c;
 }
 
+.blue-border {
+    border-bottom: 3px solid #2888d5;
+}
+
+.opacity {
+    opacity: .5;
+}
+
 #black-logo {
     height: 30px;
     background-color: #000;
-}
-
-#black-logo img {
-    height: 16px;
 }
 
 header ul li {
     padding: 0 .5rem;
 }
 
-main #jumbo {
-    background-image: url(../img/jumbo-bg.png);
+#black-logo img {
+    height: 16px;
+}
+
+main #jumbo,
+main #jumbo-itt {
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,10 +36,18 @@ main #jumbo {
     color: #fff;
 }
 
+main #jumbo {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+main #jumbo-itt {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 .my_content img {
     border-radius: 15px;
 }
 
-.blue-border {
-    border-bottom: 3px solid #2888d5;
-}
+
+
+
