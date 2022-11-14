@@ -32,3 +32,6 @@ main #jumbo {
     border-radius: 15px;
 }
 
+.blue-border {
+    border-bottom: 3px solid #2888d5;
+}
