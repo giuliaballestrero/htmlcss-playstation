@@ -1,0 +1,15 @@
+
+
+#black-logo {
+    height: 30px;
+    background-color: #000;
+}
+
+#black-logo img {
+    height: 16px;
+}
+
+header ul li {
+    padding: 0 .5rem;
+}
+
