@@ -22,6 +22,10 @@
     background-color: #161c3b;
 }
 
+.bg-blue {
+    background-color: #00439c;
+}
+
 .blue-border {
     border-bottom: 3px solid #2888d5;
 }
@@ -48,6 +52,14 @@ header ul li {
     height: 60px;
 }
 
+#ps-logo-footer {
+    height: 70px;
+}
+
+#logo-sony-footer {
+    height: 50px;
+}
+
 main #jumbo,
 main #jumbo-itt {
     background-repeat:no-repeat;
@@ -69,7 +81,6 @@ main #jumbo-itt {
 .my_content img {
     border-radius: 15px;
 }
-
 
 
 
