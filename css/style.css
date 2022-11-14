@@ -13,3 +13,11 @@ header ul li {
     padding: 0 .5rem;
 }
 
+main #jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: #fff;
+}
