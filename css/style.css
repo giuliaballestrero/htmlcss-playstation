@@ -1,4 +1,10 @@
+.blue {
+    color: #2888d5;
+}
 
+.grey {
+    color: #7c7c7c;
+}
 
 #black-logo {
     height: 30px;
@@ -25,3 +31,4 @@ main #jumbo {
 .my_content img {
     border-radius: 15px;
 }
+
