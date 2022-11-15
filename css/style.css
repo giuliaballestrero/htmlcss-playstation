@@ -39,7 +39,6 @@
     background-color: #000;
 }
 
-
 header ul li {
     padding: 0 .5rem;
 }
@@ -49,7 +48,8 @@ header ul li {
 }
 
 #ps-plus-logo,
-#ps-now-logo {
+#ps-now-logo,
+#logo-returnal {
     height: 60px;
 }
 
@@ -82,6 +82,7 @@ main #jumbo-itt {
 .my_content img {
     border-radius: 15px;
 }
+
 
 
 
