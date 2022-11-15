@@ -93,6 +93,10 @@ main #jumbo-itt {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.dropdown-arrow {
+    height: 10px;
+}
+
 /*UTILITIES*/
 
 header ul li {
@@ -106,6 +110,10 @@ footer a{
 
 .my_content img {
     border-radius: 15px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
 }
 
 
