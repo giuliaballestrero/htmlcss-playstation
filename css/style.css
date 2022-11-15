@@ -95,6 +95,10 @@ header ul li {
     padding: 0 .5rem;
 }
 
+footer a{
+    color: #fff;
+}
+
 
 .my_content img {
     border-radius: 15px;
