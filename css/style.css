@@ -32,10 +32,6 @@
     background-color: #00439c;
 }
 
-.blue-border {
-    border-bottom: 3px solid #2888d5;
-}
-
 .opacity {
     opacity: .5;
 }
@@ -130,6 +126,15 @@ footer a{
     display: none !important;
 }
 
+.ps-items img {
+    height: 150px;
+}
+
+.ps-items p{
+    font-size: .8rem;
+}
+
+
 /*HOVER*/
 
 header a:hover {
@@ -143,4 +148,8 @@ header a:hover .dropdown-arrow {
 header a:hover .dropdown-hover {
     display: initial;
     transform: rotate(180deg);
+}
+
+main .ps-items:hover {
+    border-bottom: 3px solid #2888d5;
 }
