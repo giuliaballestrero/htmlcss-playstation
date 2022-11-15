@@ -112,6 +112,11 @@ header ul li {
     padding: 0 .5rem;
 }
 
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
 footer a{
     color: #fff;
 }
@@ -127,10 +132,15 @@ footer a{
 
 /*HOVER*/
 
+header a:hover {
+    color: #1f81d6 !important;
+}
+
 header a:hover .dropdown-arrow {
     display: none;
 }
 
 header a:hover .dropdown-hover {
     display: initial;
+    transform: rotate(180deg);
 }
