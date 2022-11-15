@@ -1,3 +1,5 @@
+/*COLORS*/
+
 .blue {
     color: #2888d5;
 }
@@ -34,13 +36,22 @@
     opacity: .5;
 }
 
+/*FONTS*/
+
+header {
+    font-family: Helvetica, Sans-Serif;
+}
+
+main,
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*IMG PROPERTY*/
+
 #black-logo {
     background-color: #000;
 
-}
-
-header ul li {
-    padding: 0 .5rem;
 }
 
 #black-logo img {
@@ -76,6 +87,12 @@ main #jumbo {
 
 main #jumbo-itt {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/*UTILITIES*/
+
+header ul li {
+    padding: 0 .5rem;
 }
 
 
