@@ -126,6 +126,10 @@ footer a{
     display: none !important;
 }
 
+.ps-items {
+    border: 3px solid transparent;
+}
+
 .ps-items img {
     height: 150px;
 }
