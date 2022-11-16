@@ -133,7 +133,25 @@
                         </li>
 
                         <li class="mb-3 mb-lg-0">
-                            <button type="button" class="btn btn-dark rounded-pill fw-bold">Accedi</button>
+                            <button type="button" class="btn btn-dark rounded-pill fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Accedi</button>
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">NOPE - ACCESS DENIED!!!</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <img class="img-fluid" src="./img/not-pass.jpg" alt="Gandalf">
+                                      <h1 class="fw-bold text-center py-3">We're sorry! Please use F5 to reload this page until we use JS!</h1>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                         </li>
                         
                         <li class="mb-3 mb-lg-0">
@@ -234,28 +252,28 @@
                     <div class="col-4 col-md-2">
                         <div class="ps-items">
                             <img class="img-fluid pb-2" src="./img/playstation-5-thumb.png" alt="Console ps5">
-                            <p class="d-none d-md-block">Console PS5</p>
+                            <p class="d-none d-md-block lh-lg">Console PS5</p>
                         </div>
                     </div>
 
                     <div class="col-4 col-md-2">
                         <div class="ps-items">
                             <img class="img-fluid opacity pb-2" src="./img/joypad-thumb.png" alt="Joypad ps5">
-                            <p class="d-none d-md-block grey">Controller wireless DualSense&#8482;</p>  
+                            <p class="d-none d-md-block grey lh-lg">Controller wireless DualSense&#8482;</p>  
                         </div>
                     </div>
 
                     <div class="col-4 col-md-2">
                         <div class="ps-items">
                             <img class="img-fluid opacity pb-2" src="./img/headset-thumb.png" alt="Headset ps5">
-                            <p class="d-none d-md-block grey">Cuffie Wireless con microfono PULSE 3&#8482;</p>
+                            <p class="d-none d-md-block grey lh-lg">Cuffie Wireless con microfono PULSE 3&#8482;</p>
                         </div>
                     </div>
 
                     <div class="col-4 col-md-2">
                         <div class="ps-items">
                             <img class="img-fluid opacity pb-2" src="./img/remote-thumb.png" alt="Remote ps5">
-                            <p class="d-none d-md-block grey">Telecomando Media</p>
+                            <p class="d-none d-md-block grey lh-lg">Telecomando Media</p>
                         </div>
                     </div>
 
